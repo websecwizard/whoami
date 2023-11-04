@@ -1,27 +1,27 @@
-'use strict';
+t'use strict';
 
 var app = app || {};
 
 (function(module){
   module.displayCharacter = function(char) {
     document.getElementById('strength').innerText = `${char.strength}`;
-    document.getElementById('dexterity').innerText = `${char.strength}`;
-    document.getElementById('control').innerText = `${char.strength}`;
-    document.getElementById('physique').innerText = `${char.strength}`;
-    document.getElementById('face').innerText = `${char.strength}`;
-    document.getElementById('speech').innerText = `${char.strength}`;
-    document.getElementById('virtue').innerText = `${char.strength}`;
-    document.getElementById('flaw').innerText = `${char.strength}`;
-    document.getElementById('misfortunes').innerText = `${char.strength}`;
-    document.getElementById('trauma').innerText = `${char.strength}`;
-    document.getElementById('beliefs').innerText = `${char.strength}`;
-    document.getElementById('social').innerText = `${char.strength}`;
-    document.getElementById('startingMomento').innerText = `${char.strength}`;
-    document.getElementById('startingBackground').innerText = `${char.strength}`;
-    document.getElementById('startingGear').innerText = `${char.strength}`;
-    document.getElementById('startingBonus').innerText = `${char.strength}`;
-    document.getElementById('meeting').innerText = `${char.strength}`;
-    document.getElementById('party').innerText = `${char.strength}`;
+    document.getElementById('dexterity').innerText = `${char.dexterity}`;
+    document.getElementById('control').innerText = `${char.control}`;
+    document.getElementById('physique').innerText = `${char.physique}`;
+    document.getElementById('face').innerText = `${char.face}`;
+    document.getElementById('speech').innerText = `${char.speech}`;
+    document.getElementById('virtue').innerText = `${char.virtue}`;
+    document.getElementById('flaw').innerText = `${char.flaw}`;
+    document.getElementById('misfortunes').innerText = `${char.misfortunes}`;
+    document.getElementById('trauma').innerText = `${char.trauma}`;
+    document.getElementById('beliefs').innerText = `${char.beliefs}`;
+    document.getElementById('social').innerText = `${char.social}`;
+    document.getElementById('startingMomento').innerText = `${char.startingMomento}`;
+    document.getElementById('startingBackground').innerText = `${char.startingBackground}`;
+    document.getElementById('startingGear').innerText = `${char.startingGear}`;
+    document.getElementById('startingBonus').innerText = `${char.startingBonus}`;
+    document.getElementById('meeting').innerText = `${char.meeting}`;
+    document.getElementById('party').innerText = `${char.party}`;
   };
 
   // function formatHeight(height) {
