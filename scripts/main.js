@@ -24,6 +24,13 @@ var app = app || {};
     document.getElementById('party').innerText = `${char.party}`;
   };
 
+  function roll(n) {
+    var a = Array(n);
+    for (var i = 0; i < n; i++)
+        a[i] = Math.floor(Math.random() * 6) + 1;
+    return a[0] + a[1] + a[2];
+}
+
   // function formatHeight(height) {
   //   let feet = Math.floor(height / 12.0);
   //   let inches = Math.floor(height % 12.0);
