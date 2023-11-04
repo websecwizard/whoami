@@ -14,11 +14,12 @@ Strength (STR): Physicality, brawn & toughness.
 Dexterity (DEX): Speed, sneaking & precision.
 Control (CTRL): Willpower, charm & weird
 
-
+|  |    |      
+| -------- | -------- |
 |Strength | 3d6|
 |Dexterity| 3d6|
 |Control|3d6|
------
+| -Choose- | -Confuse- |
 |Physique| d10|
 |Face| d10|
 |Speech|d10|
@@ -28,14 +29,18 @@ Control (CTRL): Willpower, charm & weird
 |Trauma|d10|
 |Beliefs|d10|
 |Social|d10|
-|Background|d20|
-|Meeting|d6|
-|Party|d6|
+|Staring Momento |d10|
+| -------- | -------- |
+|Starting Background|d20|
 |Starting Weapon | d20|
 |Starting Gear |d20|
-|Staring Momento |d10|
 |Starting Bonus |d20|
+| -------- | -------- |
+|Meeting|d6|
+|Party|d6|
+| -------- | -------- |
 |Magic|d20|
+| -------- | -------- |
 |Armor| List|
 |Weapons | List|
 |Explosives| List|
@@ -92,17 +97,6 @@ Control (CTRL): Willpower, charm & weird
 | 4    | Deceitful  | 9    | Vain     |
 | 5    | Greedy     | 10   | Vengeful |
 
-## Trauma
-
-||||
-|------|-----------|-----------|-----------|
-|1           |Lost a loved one under mysterious circumstances. |6          |The evidence online is too much to be ignored.     |
-|2           |Witnessed something in the darkness. |7          |You survived an attack you cannot explain.     |
-|3           |Something is lurking in your dreams. |8          |Someone close to you is pulling you in, or pushing you away.     |
-|4           |Cult activity (perhaps they recruited someone significant). |9          |You may be a card carrying member in a secret society.     |
-|5           |You read something not meant for mortal minds. |10          |You haven’t yet, that’s what session 1 is for!     |
-
-
 ## Misfortunes
 
 |  |             |      |             |
@@ -112,6 +106,19 @@ Control (CTRL): Willpower, charm & weird
 | 3           | Blackmailed | 8    | Discredited |
 | 4           | Condemned   | 9    | Disowned    |
 | 5           | Cursed      | 10   | Exiled      |
+
+## Trauma
+
+|||||
+|------|-----------|-----------|-----------|
+|1           |Lost a loved one under mysterious circumstances. |6          |The evidence online is too much to be ignored.     |
+|2           |Witnessed something in the darkness. |7          |You survived an attack you cannot explain.     |
+|3           |Something is lurking in your dreams. |8          |Someone close to you is pulling you in, or pushing you away.     |
+|4           |Cult activity (perhaps they recruited someone significant). |9          |You may be a card carrying member in a secret society.     |
+|5           |You read something not meant for mortal minds. |10          |You haven’t yet, that’s what session 1 is for!     |
+
+
+
 
 
 ## Beliefs
@@ -135,7 +142,7 @@ Control (CTRL): Willpower, charm & weird
 | 5 | Protege                   | 10 | NPC              |
 
 ## Background
-
+|||||
 |------|-----------|-----------|-----------|
 |1          |Journalist |11        |Old Money |
 |2          |Store Clerk|12        |Author |
@@ -165,7 +172,7 @@ Control (CTRL): Willpower, charm & weird
 | 2 | _____ is my ex.                                              |
 | 3 | _____ saved me from whatever it was that tried to attack me. |
 | 4 | _____ is my drinking buddy                                   |
-| 5 | _____ is my co-worker at _____                              |
+| 5 | _____ is my co-worker at _____                               |
 | 6 | _____ is my neighbor.                                        |
 
 
@@ -234,7 +241,7 @@ Control (CTRL): Willpower, charm & weird
 |--------------------------------------------------------------|-----|
 |Armored Vest (+1 Armor)                       |$1000   |
 |Amulet from the old country (+1 Stability)    |$1000   |
-|Gas Mask (protects against airborne toxins)   $100   |
+|Gas Mask (protects against airborne toxins)   |$100   |
 |Mask (protects your identity)                 |$20   |
 
 
