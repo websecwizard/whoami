@@ -4,6 +4,167 @@ var data = data || {};
 
 (function(module){
 
+  module.physique = [
+    'Athletic',
+    'Brawny',
+    'Curvy',
+    'Lanky',
+    'Rugged',
+    'Scrawny',
+    'Short',
+    'Statuesque',
+    'Stout',
+    'Towering'
+    ];
+  module.face = [ 
+    'Bony',
+    'Broken',
+    'Chiseled',
+    'Elongated',
+    'Dimpled',
+    'Perfect',
+    'Round',
+    'Sharp',
+    'Square',
+    'Sunken'
+    ];
+  module.speech = [
+    'Blunt',
+    'Booming',
+    'Cryptic',
+    'Droning',
+    'Formal',
+    'Gravelly',
+    'Precise',
+    'Squeaky',
+    'Choppy',
+    'Whispery'
+    ];
+  module.virtue = [
+    'Ambitious',
+    'Cautious',
+    'Courageous',
+    'Disciplined',
+    'Gregarious',
+    'Honorable',
+    'Humble',
+    'Merciful',
+    'Serene',
+    'Tolerant'
+    ];
+  module.flaw = [
+    'Aggressive',
+    'Bitter',
+    'Craven',
+    'Deceitful',
+    'Greedy',
+    'Lazy',
+    'Nervous',
+    'Rude',
+    'Vain',
+    'Vengeful'
+    ];
+  module.trauma = [
+    'Lost a loved one under mysterious circumstances.',
+    'Witnessed something in the darkness.',
+    'Something is lurking in your dreams.',
+    'Cult activity (perhaps they recruited someone significant).',
+    'You read something not meant for mortal minds.',
+    'The evidence online is too much to be ignored.',
+    'You survived an attack you cannot explain.',
+    'Someone close to you is pulling you in, or pushing you away.',
+    'You may be a card carrying member in a secret society.',
+    'You haven’t yet, that’s what session 1 is for!'
+    ];
+  module.misfortunes = [
+    'Abandoned',
+    'Addicted',
+    'Blackmailed',
+    'Condemned',
+    'Cursed',
+    'Defrauded',
+    'Demoted',
+    'Discredited',
+    'Disowned',
+    'Exiled'
+    ];
+  module.beliefs = [
+    'Everything has a rational explanation rooted in science.',
+    'You ascribe to a specific political ideology.',
+    'Morality is black and white.',
+    'Belief in higher powers. Astrology, spirituality, etc.',
+    'There are deep truths that others are not aware of. The answers are out there.',
+    'Individuals can make a difference.',
+    'A specific religion guides you.',
+    'You believe in fate and it directly impacts your life.',
+    'Free will is the only truth.',
+    'You believe in the power of community.'
+    ];
+  module.social = [
+    'Family member',
+    'Lover (current or former)',
+    'Friend',
+    'Mentor',
+    'Protege',
+    'Online associate',
+    'Hero',
+    'Rival',
+    'A Specialist',
+    'NPC'
+    ];
+  module.startingBackground = [
+    'Journalist',
+    'Store Clerk',
+    'Private Investigator',
+    'Cleric (former)',
+    'Medic',
+    'Archivist',
+    'Artist',
+    'Athlete',
+    'Criminal',
+    'Drifter',
+    'Old Money',
+    'Author',
+    'Professor',
+    'Very Online',
+    'Lawyer',
+    'Gig-Worker',
+    'Trades',
+    'Therapist',
+    'Finance',
+    'Hospitality'
+    ];
+  module.startingMomento = [
+    'A note from a lost love',
+    'An item from your background',
+    'A business card with a number written on the back',
+    'A piece of jewelry carved from bone',
+    'A will',
+    'A letter in a language you cannot identify',
+    'A book filled with names (Not your handwriting)',
+    'A voice recording',
+    'A heavily redacted file',
+    'A small, old figurine'
+    ];
+  module.startingWeapon = [
+    ];
+  module.startingGear = [
+    ];
+  module.startingBonus = [
+    'Momento',
+    'Gear',
+    'Weapon',
+    'Magic',
+    ];
+  module.meeting = [
+    ];
+  module.party = [
+    ];
+  module.magic = [
+    ];
+  
+  
+  
   module.hairColors = [
     'black',
     'brown',
@@ -92,124 +253,10 @@ var data = data || {};
     'pierced tongue'
   ];
 
-  module.races = [
-    {
-      name: 'human',
-      minHeight: {
-        'male' : 5*12,
-        'female': 4*12+7,
-        'none': 4*12+7
-      },
-      maxHeight: {
-        'male': 6*12+6,
-        'female': 6*12+1,
-        'none': 6*12+6
-      },
-      minBmi: 18,
-      maxBmi: 30
-    },
-    {
-      name: 'elf',
-      minHeight: {
-        'male' : 5*12+3,
-        'female': 4*12+11,
-        'none': 4*12+11
-      },
-      maxHeight: {
-        'male': 6*12+1,
-        'female': 5*12+9,
-        'none': 6*12+1
-      },
-      minBmi: 16,
-      maxBmi: 25
-    },
-    {
-      name: 'dwarf',
-      minHeight: {
-        'male' : 3*12+11,
-        'female': 3*12+9,
-        'none': 3*12+9
-      },
-      maxHeight: {
-        'male': 4*12+5,
-        'female': 4*12+3,
-        'none': 4*12+5
-      },
-      minBmi: 18,
-      maxBmi: 30
-    },
-    {
-      name: 'goblin',
-      minHeight: {
-        'male' : 2*12+9,
-        'female': 2*12+7,
-        'none': 2*12+7
-      },
-      maxHeight: {
-        'male': 3*12+3,
-        'female': 3*12+1,
-        'none': 3*12+3
-      },
-      minBmi: 16,
-      maxBmi: 25
-    },
-    {
-      name: 'orc',
-      minHeight: {
-        'male' : 6*12+8,
-        'female': 6*12+2,
-        'none': 6*12+2
-      },
-      maxHeight: {
-        'male': 8*12+6,
-        'female': 8*12,
-        'none': 8*12+6
-      },
-      minBmi: 25,
-      maxBmi: 41
-    },
-    {
-      name: 'undead',
-      minHeight: {
-        'male' : 5*12,
-        'female': 4*12+7,
-        'none': 4*12+7
-      },
-      maxHeight: {
-        'male': 6*12+6,
-        'female': 6*12+1,
-        'none': 6*12+6
-      },
-      minBmi: 18,
-      maxBmi: 30
-    }
-  ];
-
-  module.genders = [
-    'male',
-    'female',
-    'none'
-  ];
-
-  module.orientations = [
-    'straight',
-    'gay',
-    'bi'
-  ];
-
-  module.attitudes = [
-    'confident',
-    'contempuous',
-    'devious',
-    'proud',
-    'optimistic',
-    'pessimistic',
-    'encouraging',
-    'fair',
-    'just',
-    'religious',
-    'humble',
-    'honest'
+  module.pronouns = [
+    'he/him',
+    'she/her',
+    'they/them'
   ];
 
   module.backgrounds = [
@@ -260,49 +307,6 @@ var data = data || {};
     'farmer',
     'scholar',
     'slave'
-  ];
-
-  module.hobbies = [
-    'whittling',
-    'carving',
-    'cooking',
-    'calligraphy',
-    'darts',
-    'tournaments',
-    'fishing',
-    'hunting',
-    'painting',
-    'pottery',
-    'needlecraft',
-    'archery',
-    'knucklebones',
-    'origami',
-    'chess',
-    'performance',
-    'stargazing',
-    'shopping',
-    'gambling',
-    'reading'
-  ];
-
-  module.traits = [
-    'active',
-    'arrogant',
-    'anxious',
-    'envious',
-    'dedicated',
-    'stable',
-    'brave',
-    'trusting',
-    'meticulous',
-    'fierce',
-    'unkempt',
-    'adventurous',
-    'charismatic',
-    'good-natured',
-    'passionate',
-    'loyal',
-    'stoic'
   ];
 
   module.motivations = [
