@@ -4,6 +4,10 @@ var data = data || {};
 
 (function(module){
 
+  module.strength = [ '10'];
+  module.dexterity = ['10'];
+  module.control = ['10'];
+
   module.physique = [
     'Athletic',
     'Brawny',
@@ -220,26 +224,26 @@ var data = data || {};
     'Water to Blood'
     ];
   
-  module.hairColors = [
-    'black',
-    'brown',
-    'auburn',
-    'blonde',
-    'dirty blonde',
-    'red',
-    'orange',
-    'jet black',
-    'dark brown',
-    'light brown',
-    'white',
-    'grey',
-    'silver'
-  ];
-  module.pronouns = [
-    'he/him',
-    'she/her',
-    'they/them'
-  ];
+  // module.hairColors = [
+  //   'black',
+  //   'brown',
+  //   'auburn',
+  //   'blonde',
+  //   'dirty blonde',
+  //   'red',
+  //   'orange',
+  //   'jet black',
+  //   'dark brown',
+  //   'light brown',
+  //   'white',
+  //   'grey',
+  //   'silver'
+  // ];
+  // module.pronouns = [
+  //   'he/him',
+  //   'she/her',
+  //   'they/them'
+  // ];
 
   // module.backgrounds = [
   //   'hunter',
