@@ -201,28 +201,28 @@ var data = data || {};
     '____ is my co-worker',
     '____ is my neighbor'
     ];
-  module.magic = [
-    'Animals Die',
-    'City Appears',
-    'Deadly Fog',
-    'Dream Plague',
-    'Endless Night',
-    'Endless Storm',
-    'Endless Twilight',
-    'Endless Winter',
-    'Forest Appears',
-    'Graves Open',
-    'Mass Slumber',
-    'Meteor Strike',
-    'Mirrors Speak',
-    'No Stars',
-    'Outsider Enters',
-    'People Vanish',
-    'Portal Opens',
-    'Rifts Open',
-    'Tower Appears',
-    'Water to Blood'
-    ];
+  // module.magic = [
+  //   'Animals Die',
+  //   'City Appears',
+  //   'Deadly Fog',
+  //   'Dream Plague',
+  //   'Endless Night',
+  //   'Endless Storm',
+  //   'Endless Twilight',
+  //   'Endless Winter',
+  //   'Forest Appears',
+  //   'Graves Open',
+  //   'Mass Slumber',
+  //   'Meteor Strike',
+  //   'Mirrors Speak',
+  //   'No Stars',
+  //   'Outsider Enters',
+  //   'People Vanish',
+  //   'Portal Opens',
+  //   'Rifts Open',
+  //   'Tower Appears',
+  //   'Water to Blood'
+  //   ];
   
   // module.hairColors = [
   //   'black',
