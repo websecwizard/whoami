@@ -5,9 +5,9 @@ var data = data || {};
 
 (function(module){
   module.Character = function() {
-    this.strength = app.randomItem(data.strength);
-    this.dexterity = app.randomItem(data.dexterity);
-    this.control = app.randomItem(data.control);
+    this.strength = roll(3);
+    this.dexterity = roll(3);
+    this.control = roll(3);
     this.physique = app.randomItem(data.physique);
     this.face = app.randomItem(data.face);
     this.speech = app.randomItem(data.speech);
