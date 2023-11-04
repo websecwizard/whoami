@@ -147,8 +147,33 @@ var data = data || {};
     'A small, old figurine'
     ];
   module.startingWeapon = [
+    'Armored Vest',
+    'improvised or crude weapon',
+    'Dagger, Baton, Taser/Mace or pistol',
+    'Rifle or Shotgun',
+    '[Magic]'
     ];
   module.startingGear = [
+    'Night Vision Gaggles',
+    'Zip Ties',
+    'Binoculars',
+    'Chain & Lock',
+    'Ancient Tome',
+    'Handcuffs',
+    'Grappling Hook & Rope',
+    'Body Bag',
+    'Tactical Flashlight',
+    'An Ivory Necklace (+1 Stability)',
+    'Flashbang',
+    'Directional Microphone',
+    'Glass cutting tools',
+    'A box with no seam',
+    'Lockpicks',
+    'Spray Paint',
+    'Laptop & Printer',
+    'Kevlar Rope',
+    'Good Camera',
+    'Bolt Cutters'
     ];
   module.startingBonus = [
     'Momento',
@@ -157,13 +182,43 @@ var data = data || {};
     'Magic',
     ];
   module.meeting = [
+    'The investigators meet in a diner. They may or may not know each other. Fluorescent lights hum over checkered linoleum.',
+    'A simple “wrong place, wrong time.” The resulting event binds the investigators together.',
+    'United through self guided research. Online paranatural forum? Club? Support group?',
+    'A mysterious patron that has brought the investigators together.',
+    'Members of the community respond to a series of mysterious events.',
+    'Investigators (either professional or amateur) that are looking into an event.'
     ];
   module.party = [
+    '____ is hiding something from me',
+    '____ is my ex',
+    '____ saved me from whatever it was that tried to attack me',
+    '____ is my drinking buddy',
+    '____ is my co-worker',
+    '____ is my neighbor'
     ];
   module.magic = [
+    'Animals Die',
+    'City Appears',
+    'Deadly Fog',
+    'Dream Plague',
+    'Endless Night',
+    'Endless Storm',
+    'Endless Twilight',
+    'Endless Winter',
+    'Forest Appears',
+    'Graves Open',
+    'Mass Slumber',
+    'Meteor Strike',
+    'Mirrors Speak',
+    'No Stars',
+    'Outsider Enters',
+    'People Vanish',
+    'Portal Opens',
+    'Rifts Open',
+    'Tower Appears',
+    'Water to Blood'
     ];
-  
-  
   
   module.hairColors = [
     'black',
