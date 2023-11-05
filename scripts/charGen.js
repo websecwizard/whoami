@@ -22,16 +22,5 @@ var data = data || {};
     this.startingWeapon = app.randomItem(data.startingWeapon);
     this.startingGear = app.randomItem(data.startingGear);
     this.startingBonus = app.randomItem(data.startingBonus);
-    // this.height =
-    //   Math.floor(
-    //     Math.random()
-    //       * (this.race.maxHeight[this.gender]-this.race.minHeight[this.gender])
-    //       + this.race.minHeight[this.gender]
-    //   );
-    // this.weight =
-    //   app.calcWeight(
-    //     this.height,
-    //     Math.floor(Math.random() * (this.race.maxBmi - this.race.minBmi) + this.race.minBmi)
-    //   );
   };
 })(app);
