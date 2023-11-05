@@ -23,7 +23,6 @@ var app = app || {};
     document.getElementById('meeting').innerText = `${char.meeting}`;
     document.getElementById('party').innerText = `${char.party}`;
   };
-
   function roll(n) {
     var a = Array(n);
     for (var i = 0; i < n; i++)
