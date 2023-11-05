@@ -91,7 +91,7 @@ var data = data || {};
     'You ascribe to a specific political ideology.',
     'Morality is black and white.',
     'Belief in higher powers. Astrology, spirituality, etc.',
-    'There are deep truths that others are not aware of. The answers are out there.',
+    'There TRUTH is out there but others are not aware of it.',
     'Individuals can make a difference.',
     'A specific religion guides you.',
     'You believe in fate and it directly impacts your life.',
