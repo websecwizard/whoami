@@ -62,7 +62,7 @@ var data = data || {};
     'Vain',
     'Vengeful'
     ];
-  module.trauma = [
+  module.weirdness = [
     'Lost a loved one under mysterious circumstances.',
     'Witnessed something in the darkness.',
     'Something is lurking in your dreams.',
@@ -72,9 +72,9 @@ var data = data || {};
     'You survived an attack you cannot explain.',
     'Someone close to you is pulling you in, or pushing you away.',
     'You may be a card carrying member in a secret society.',
-    'You haven’t yet, that’s what session 1 is for!'
+    "Someone looking exactly like you is replacing you in society.'
     ];
-  module.misfortunes = [
+  module.trauma = [
     'Abandoned',
     'Addicted',
     'Blackmailed',
@@ -99,16 +99,16 @@ var data = data || {};
     'You believe in the power of community.'
     ];
   module.social = [
-    'Family member',
-    'Lover (current or former)',
-    'Friend',
-    'Mentor',
-    'Protege',
-    'Online associate',
-    'Hero',
-    'Rival',
-    'A Specialist',
-    'NPC'
+    'Create your Family member',
+    'Create your Lover (current or former)',
+    'Create your Friend',
+    'Create your Mentor',
+    'Create your Protege',
+    'Create your Online associate',
+    'Create your Hero',
+    'Create your Rival',
+    'Create your Specialist',
+    'Create your Boss'
     ];
   module.startingBackground = [
     'Journalist',
@@ -188,26 +188,26 @@ var data = data || {};
     'Bolt Cutters'
     ];
   module.startingBonus = [
-    'Momento',
-    'Momento',
-    'Momento',
-    'Momento',
-    'Momento',
-    'Gear',
-    'Gear',
-    'Gear',
-    'Gear',
-    'Gear',
-    'Gear',
-    'Gear',
-    'Gear',
-    'Weapon',
-    'Weapon',
-    'Weapon',
-    'Weapon',
-    'Weapon',
-    'Weapon',
-    'Magic'
+    'Another Memento = A business card with a number written on the back',
+    'Another Memento = A piece of jewelry carved from bone',
+    'Another Memento = A will',
+    'Another Memento = A letter in a language you cannot identify',
+    'Another Memento = A book filled with names (Not your handwriting)',
+    'More Gear = Handcuffs',
+    'More Gear = Grappling Hook & Rope',
+    'More Gear = Body Bag',
+    'More Gear = Tactical Flashlight',
+    'More Gear = An Ivory Necklace (+1 Stability)',
+    'More Gear = Flashbang',
+    'More Gear = Directional Microphone',
+    'More Gear = Glass cutting tools',
+    'Bonus Weapon = Fighting Dog',
+    'Bonus Weapon = Crowbar',
+    'Bonus Weapon = 8 pack of C-4',
+    'Bonus Weapon = Shotgun'
+    'Bonus Weapon = Armored Vest',
+    'Bonus Weapon = Almost useless stick',
+    'Bonus Weapon = [Magic]'
     ];
   module.meeting = [
     'The investigators meet in a diner. They may or may not know each other. Fluorescent lights hum over checkered linoleum.',
