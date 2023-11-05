@@ -31,13 +31,6 @@ var app = app || {};
     return a[0] + a[1] + a[2];
 }
 
-  // function formatHeight(height) {
-  //   let feet = Math.floor(height / 12.0);
-  //   let inches = Math.floor(height % 12.0);
-
-  //   return `${feet}' ${inches}"`;
-  // }
-    
   module.main = function() {
     let character = new app.Character();
     
