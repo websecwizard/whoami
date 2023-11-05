@@ -3,11 +3,6 @@
 var data = data || {};
 
 (function(module){
-
-  module.strength = [ '10'];
-  module.dexterity = ['10'];
-  module.control = ['10'];
-
   module.physique = [
     'Athletic',
     'Brawny',
