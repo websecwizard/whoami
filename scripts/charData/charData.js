@@ -1,7 +1,6 @@
 'use strict';
 
 var data = data || {};
-
 (function(module){
   module.physique = [
     'Athletic',
@@ -147,13 +146,27 @@ var data = data || {};
     ];
   module.startingWeapon = [
     'Armored Vest',
-    'improvised or crude weapon',
-    'Dagger, Baton, Taser/Mace or pistol',
-    'Rifle or Shotgun',
+    'Prison Shank',
+    'Pen/Glass Breaker',
+    'Walking Cane',
+    'Fighting Dog',
+    'Crowbar',
+    'Almost useless stick',
+    'Dagger',
+    'Baton',
+    'Mace Spray',
+    'Touch Taser',
+    'Taser Gun',
+    'Pistol',
+    'Samurai Sword',
+    'Bow & Arrow Bundle',
+    '8 pack of C-4',
+    'Shotgun'
+    'Rifle',
     '[Magic]'
     ];
   module.startingGear = [
-    'Night Vision Gaggles',
+    'Night Vision Goggles',
     'Zip Ties',
     'Binoculars',
     'Chain & Lock',
@@ -176,7 +189,23 @@ var data = data || {};
     ];
   module.startingBonus = [
     'Momento',
+    'Momento',
+    'Momento',
+    'Momento',
+    'Momento',
     'Gear',
+    'Gear',
+    'Gear',
+    'Gear',
+    'Gear',
+    'Gear',
+    'Gear',
+    'Gear',
+    'Weapon',
+    'Weapon',
+    'Weapon',
+    'Weapon',
+    'Weapon',
     'Weapon',
     'Magic'
     ];
